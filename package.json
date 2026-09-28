@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/tunesql",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tune digests and sql fingerprints for local integrity checks.",
+  "bin": {
+    "tunesql": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/tunesql.git"
+  },
+  "homepage": "https://theworker02.github.io/tunesql/",
+  "keywords": [
+    "tune",
+    "sql",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
